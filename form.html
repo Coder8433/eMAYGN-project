@@ -1,75 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eMAGYNAncient - Discover Your Power Symbol</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 30%, #2c3e50 70%, #9b59b6 100%);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 2rem;
-            color: white;
-        }
-
-        .header h1 {
-            font-size: 3rem;
-            color: #ffd700;
-            margin-bottom: 1rem;
-            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
-        }
-
-        .header p {
-            font-size: 1.3rem;
-            color: rgba(255,255,255,0.9);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .form-container {
-            width: 95%;
-            max-width: 1200px;
-            min-height: 80vh;
-            background: rgba(255,255,255,0.95);
-            border-radius: 20px;
-            padding: 2rem;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            backdrop-filter: blur(10px);
-            position: relative;
-        }
-
-        .form-container::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(45deg, #ffd700, #ff6b35, #9b59b6, #3498db);
-            border-radius: 22px;
-            z-index: -1;
-        }
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Personal Foundation</title>
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <style type="text/css">
+        html { margin: 0; height: 100%; overflow: hidden; }
+        iframe { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 0; }
+        
         .back-button {
-            position: absolute;
-            top: 2rem;
-            left: 2rem;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 9999;
             background: linear-gradient(45deg, #ffd700, #ff6b35);
             color: #2c3e50;
             padding: 0.8rem 1.5rem;
@@ -78,48 +20,26 @@
             font-weight: 600;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(255,215,0,0.3);
+            font-family: Arial, sans-serif;
         }
-
+        
         .back-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(255,215,0,0.4);
         }
-
+        
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2.2rem;
-            }
-            
-            .header p {
-                font-size: 1.1rem;
-            }
-            
-            .form-container {
-                padding: 1rem;
-                margin-top: 1rem;
-                min-height: 70vh;
-                width: 98%;
-            }
-            
             .back-button {
-                position: static;
-                display: inline-block;
-                margin-bottom: 2rem;
+                top: 10px;
+                left: 10px;
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
             }
         }
     </style>
 </head>
 <body>
     <a href="webpage.html" class="back-button">← Back to Main Page</a>
-    
-    <div class="header">
-        <h1>Discover Your Ancient Power Symbol</h1>
-        <p>Answer a few questions to unlock the sacred symbol that will transform your life and connect you to universal wisdom</p>
-    </div>
-    
-    <div class="form-container">
-        <div data-tf-live="01K03EQRT4BE1SFQA8ERK61A4C" style="width: 100%; height: 600px; min-height: 60vh;"></div>
-        <script src="//embed.typeform.com/next/embed.js"></script>
-    </div>
+    <iframe data-tally-src="https://tally.so/r/w8bL5Y?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Personal Foundation"></iframe>
 </body>
 </html>
